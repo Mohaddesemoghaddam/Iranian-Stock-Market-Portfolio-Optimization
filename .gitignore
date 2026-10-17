@@ -1,0 +1,13 @@
+# Real market data and generated outputs are excluded by default
+/data/raw/*
+!/data/raw/README.md
+/results/*
+!/results/.gitkeep
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+*.log
